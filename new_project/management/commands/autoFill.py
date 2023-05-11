@@ -1,4 +1,5 @@
 from django.core.management import BaseCommand
+from new_project.models import Product, Category
 import datetime
 class Command(BaseCommand):
 
